@@ -1,3 +1,4 @@
+import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
 export default function App() {
@@ -13,13 +14,13 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: 'center', // căn giữa theo chiều dọc
+    alignItems: 'center',     // căn giữa theo chiều ngang
   },
   square: {
     width: 150,
     height: 150,
-    backgroundColor: 'blue',
+    backgroundColor: 'blue',  // màu nền hình vuông
     justifyContent: 'center',
     alignItems: 'center',
   },
